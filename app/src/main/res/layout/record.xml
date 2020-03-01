@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#0000"
+
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <TextView
+                android:gravity="center"
+                android:background="#3f70"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="username"
+                android:textAllCaps="false"
+                android:id="@+id/record_username"
+                fontPath="fonts/font1.ttf"
+                tools:ignore="MissingPrefix"
+                android:paddingRight="10dp"
+        />
+        <TextView
+                android:gravity="center"
+                android:background="#3f70"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="itemname"
+                android:textAllCaps="false"
+                android:id="@+id/record_itemname"
+                fontPath="fonts/font1.ttf"
+                tools:ignore="MissingPrefix"
+        />
+    </LinearLayout>
+    <TextView
+            android:gravity="center"
+            android:background="#3f70"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="last_use_time"
+            android:textAllCaps="false"
+            android:id="@+id/record_last_use_time"
+            fontPath="fonts/font1.ttf"
+            tools:ignore="MissingPrefix"
+            android:paddingRight="10dp"
+    />
+</LinearLayout>
